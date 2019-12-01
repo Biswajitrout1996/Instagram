@@ -1,0 +1,135 @@
+*{margin:0px ; padding: 0px;}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2019/11/20/17/42/vancouver-4640671__340.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100% ;
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+  min-height: 100%;;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div:hover{
+    opacity: .8 ;
+}
+
+div.signupform >h1>.color-change{
+    animation: Instagram 1s infinite;
+
+}
+@keyframes Instagram{
+    25%{color:#5D8AA8;}
+    50%{color:#E32636;}
+    75%{color:#FFBF00;}
+    100%{color:#A4C639;}
+    
+}
+ ul li :hover {
+     background-color: green;
+      }
+ul li{
+    float: left;
+    width: 105px;
+    height: 50px;
+    text-align: center;
+    text-justify: auto;
+    text-decoration: none;
+    list-style-type: none;
+    text-anchor: inherit;
+    font-size:12px;
+ }
+.signupform{
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin: 5% auto;
+    text-align: center;
+    max-width: 35% !important;
+    
+}
+div.signupform>h1{
+    background:url('https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png;');
+   
+    overflow: hidden;
+    text-indent: 110%;
+    
+    background-position: -98px 0;
+    margin: 22px auto 12px;
+    height: 51px;
+    width: 175px;
+}
+p{
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+}
+
+button{
+    height: 37px;
+    font-size: 17px;
+    width: 91%;
+    margin: 14px;
+    height: 39px;
+    background: rgba(var(--h5f,56,151,240),1) !important;
+    font-weight: 600;
+}
+p.Or{
+    position: relative;
+    top:-6px;
+    left: 135px;
+    background: #fff;
+    width: 50px;
+
+}
+.border1{
+    
+    background-color: #efefef;
+    height: 2px;
+    position: relative;
+    top: 1.45em;
+    width: 294px;
+    margin: 0 17px;
+}
+i{
+    
+    font-size: 21px;
+    margin: 3px 0;
+}
+
+
+input{
+    background: #fafafa;
+    font-size: 12px;
+    height: 36px;
+    width: 90%;
+    margin: 15px;
+}
+div.aggre{
+    width: 58%;
+    margin: 14px 67px;
+}
+div.aggre>p{
+    font-size: 15px;
+
+}
+a{
+    color: #999;
+    font-weight: bold;
+}
+.login{
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 5% auto;
+    text-align: center;
+    max-width: 33% !important;
+    padding: 26px 0;
+    height: 85px;
+}
+div.login span{
+    font-size: 15px;
+    
+}
